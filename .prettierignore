@@ -1,0 +1,7 @@
+# .prettierignore
+node_modules
+.nuxt
+dist
+.output
+.cache
+*.log
