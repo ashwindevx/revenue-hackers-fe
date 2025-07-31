@@ -84,6 +84,7 @@ export interface Alert {
 }
 
 export type AlertStatus =
+  "pending"
   | "yet-to-be-called"
   | "re-engaged"
   | "not-interested"

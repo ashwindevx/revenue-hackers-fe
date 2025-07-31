@@ -11,14 +11,16 @@ export const HTTP_METHODS = {
   PATCH: 'PATCH',
 } as const;
 
-// API Endpoints will be added here once backend structure is confirmed
-// Example usage:
-// export const ENDPOINTS = {
-//   MERCHANTS: {
-//     LIST: '/merchants',
-//     DETAIL: (id: string) => `/merchants/${id}`,
-//   },
-// } as const;
+
+export const ENDPOINTS = {
+  ALERTS: {
+    GET_ALERTS: `/alerts/search`,
+  },
+  MERCHANTS: {
+    LIST: '/merchants',
+    DETAIL: (id: string) => `/merchants/${id}`,
+  },
+} as const;
 
 // Request configuration interface
 export interface RequestConfig {
